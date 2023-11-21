@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "861918599117",
+    "firebase_url": "https://mqttfire-83e15-default-rtdb.firebaseio.com",
+    "project_id": "mqttfire-83e15",
+    "storage_bucket": "mqttfire-83e15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861918599117:android:1e675daef69b88c5569684",
+        "android_client_info": {
+          "package_name": "fmv.fabricio.evalunc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5jaQPiJv_vQhh4J60PIoZrpx-PavUHes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
