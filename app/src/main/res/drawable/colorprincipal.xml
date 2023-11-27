@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Estado normal del botón -->
+    <item android:state_pressed="false" android:state_focused="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#0CAB91" /> <!-- Color de fondo en estado normal -->
+            <corners android:bottomRightRadius="150dp" android:bottomLeftRadius="150dp"/><!-- Bordes redondeados -->
+        </shape>
+    </item>
+</selector>

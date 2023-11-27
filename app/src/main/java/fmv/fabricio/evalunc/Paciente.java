@@ -1,5 +1,5 @@
 package fmv.fabricio.evalunc;
-
+// CLASE PACIENTE
 public class Paciente {
     private String rut;
     private String nombre;
@@ -53,11 +53,10 @@ public class Paciente {
 
     @Override
     public String toString() {
-        return "Paciente: " +
-                "RUT= " + rut +
+        return "RUT= " + rut +
                 ", NOMBRE= " + nombre +
                 ", TELEFONO= " + telefono +
-                ", ALERGIA= " + alergia +
-                ", ESTADO= " + estado;
+                ", Tipo De Alergia= " + alergia +
+                ", ESTADO PACIENTE= " + estado;
     }
 }
