@@ -53,10 +53,10 @@ public class Paciente {
 
     @Override
     public String toString() {
-        return "RUT= " + rut +
-                ", NOMBRE= " + nombre +
-                ", TELEFONO= " + telefono +
-                ", Tipo De Alergia= " + alergia +
-                ", ESTADO PACIENTE= " + estado;
+        return "Rut: " + rut +
+                "\nNombre: " + nombre +
+                "\nTelefono: " + telefono +
+                "\nTipo De Alergia: " + alergia +
+                "\nEstado Del Paciente: " + estado;
     }
 }

@@ -16,16 +16,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EvaluNC">
         <activity
+            android:name=".principalRP"
+            android:exported="false" />
+        <activity
             android:name=".registroPT"
             android:exported="false"
-            android:windowSoftInputMode="adjustPan"/>
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".MainActivity"
             android:exported="false" /> <!-- Mqtt Service -->
         <service android:name="org.eclipse.paho.android.service.MqttService" />
 
         <activity
-            android:name=".principalRP"
+            android:name=".splashscreen"
             android:exported="true"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>

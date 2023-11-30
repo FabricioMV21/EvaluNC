@@ -72,6 +72,8 @@ public class registroPT extends AppCompatActivity {
                 eliminarPaciente();
             }
         });
+
+        // Cargar los datos al darle CLICK al ListView
         listaP.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
